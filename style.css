@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #1F2937;
+}
+
+.header{
+    padding: 10px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.introduction{
+    padding: 100px 200px;
+    display: flex;
+    justify-content:space-between;
+    color: #f9faf8;
+}
+
+.introduction-left{
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.introduction-header{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.introduction-image{
+    background-color: grey;
+    width: 50%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.information{
+    padding: 0 200px;
+    margin-bottom: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.information-header{
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+}
+
+.container .content{
+    max-width: min-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 300px;
+    font-size: 36px;
+}
+
+.quote-content{
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-author{
+    text-align: end;
+}
+
+.enrollment{
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: #f9faf8;
+    margin: 100px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.enrollment-header{
+    font-size: 24px;
+}
+
+.enrollment button{
+    border: 3px solid #e5e7eb;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.footer{
+    display: flex;
+    color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+button{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.header,
+.introduction,
+.footer{
+    background-color: #1F2937;
+}
